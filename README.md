@@ -20,7 +20,7 @@ Currently, it is using Go version 1.8
 ### Application Elements/Dependencies
 * air - simple http server, route handler
 * beego/orm - Database ORM
-* go-sqlite3 - Go sqlite library
+* go-sqlite3 - Go sqlite library (this data store could be swap out)
 * go-flow - workflow for goroutine
 
 ### Application structure
@@ -38,4 +38,4 @@ Currently, it is using Go version 1.8
 3. Killed - This is when 60 seconds have passed after it has been active, we remove the key from the database, cleaning things up
 
 ## Support
-Please contact SED team with regards to implementation and details
+Please contact me with regards to implementation and details
