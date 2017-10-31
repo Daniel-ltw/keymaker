@@ -1,0 +1,12 @@
+version: '2'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "2333:2333"
+    environment:
+      TZ: Pacific/Auckland
+    # Following is development configuration
+    command: go run keymaker.go
