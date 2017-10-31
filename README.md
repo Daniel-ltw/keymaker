@@ -3,7 +3,7 @@ A Random API key generator/validator.
 
 This can sit in the private layer without public access, other applications talks to it. 
 
-![Diagram to kind of explain how this could work](https://github.com/NZX/Keymaker/blob/master/Keymaker.jpg?raw=true "Steps to how this could work")
+![Diagram to kind of explain how this could work](https://github.com/Daniel-ltw/Keymaker/blob/master/Keymaker.jpg?raw=true "Steps to how this could work")
 Steps:
 1. Every response from the web application, before serving back the response, request a key from keymaker
 2. Keymaker returns with a key
